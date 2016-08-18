@@ -1,8 +1,8 @@
 ;(function () {
-	var vueList = {}
+	var vueTagList = {}
 
-	vueList.install = function (Vue) {
-		Vue.filter('list', function (array) {
+	vueTagList.install = function (Vue) {
+		Vue.filter('tagList', function (array) {
 			return array.map(function (val) {
 				return '#' + val
 			}).join(', ')
@@ -10,11 +10,11 @@
 	}
 
 	if (typeof exports == "object") {
-    module.exports = vueList
+    module.exports = vueTagList
   } else if (typeof define == "function" && define.amd) {
-    define([], function(){ return vueList })
+    define([], function(){ return vueTagList })
   } else if (window.Vue) {
-    window.VueList = vueList
-    Vue.use(VueList)
+    window.VueTagList = vueTagList
+    Vue.use(VueTagList)
   }
 })()

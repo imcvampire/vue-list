@@ -1,21 +1,22 @@
 {
-  "name": "vue-list",
+  "name": "vue-tag-list",
   "version": "0.1.0",
   "description": "A simple VueJS filter for list printing",
   "main": "vue-list.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imcvampire/vue-list.git"
+    "url": "git+https://github.com/imcvampire/vue-tag-list.git"
   },
   "keywords": [
     "VueJS",
     "filter",
-    "list"
+    "list",
+    "tag"
   ],
   "author": "Nguyen Quoc Anh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imcvampire/vue-list/issues"
+    "url": "https://github.com/imcvampire/vue-tag-list/issues"
   },
-  "homepage": "https://github.com/imcvampire/vue-list#readme"
+  "homepage": "https://github.com/imcvampire/vue-tag-list#readme"
 }
