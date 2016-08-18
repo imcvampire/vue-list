@@ -19,7 +19,7 @@ A simple VueJS filter for tag list printing
 ## Usage:
 
  ```html
-  {{ array | list }}
+  {{ array | tagList }}
  ```
  
 ## License
