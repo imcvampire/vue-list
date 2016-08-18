@@ -1,6 +1,6 @@
 {
   "name": "vue-tag-list",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple VueJS filter for list printing",
   "main": "vue-tag-list.js",
   "repository": {

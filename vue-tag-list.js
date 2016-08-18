@@ -4,10 +4,10 @@
 	vueTagList.install = function (Vue) {
 		Vue.filter('tagList', function (array) {
 			return array 
-			? array.map(function (val) {
-					return '#' + val
-				}).join(', ')
-			: ''
+				? array.map(function (val) {
+						return '#' + val
+					}).join(', ')
+				: ''
 		})
 	}
 
