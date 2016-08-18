@@ -3,9 +3,11 @@
 
 	vueTagList.install = function (Vue) {
 		Vue.filter('tagList', function (array) {
-			return array.map(function (val) {
-				return '#' + val
-			}).join(', ')
+			return array 
+			? array.map(function (val) {
+					return '#' + val
+				}).join(', ')
+			: ''
 		})
 	}
 
