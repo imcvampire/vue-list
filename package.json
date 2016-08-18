@@ -1,0 +1,21 @@
+{
+  "name": "vue-list",
+  "version": "0.1.0",
+  "description": "A simple VueJS filter for list printing",
+  "main": "vue-list.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imcvampire/vue-list.git"
+  },
+  "keywords": [
+    "VueJS",
+    "filter",
+    "list"
+  ],
+  "author": "Nguyen Quoc Anh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imcvampire/vue-list/issues"
+  },
+  "homepage": "https://github.com/imcvampire/vue-list#readme"
+}
