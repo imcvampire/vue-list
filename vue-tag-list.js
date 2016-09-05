@@ -8,7 +8,7 @@
             .map(function (val) {
 						  return '#' + val
 					  })
-            .slice(0, length || array.length - 1)
+            .slice(0, length || array.length)
             .join(', ')
 				: ''
 		})
