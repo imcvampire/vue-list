@@ -5,7 +5,7 @@
 		Vue.filter('tagList', function (array, length = null, param = null) {
 			return array
               .map(function (val) {
-						    return '#' + param ? val[param] : val 
+						    return '#' + (param ? val[param] : val) 
 					    })
               .slice(0, length || array.length)
               .join(', ')
