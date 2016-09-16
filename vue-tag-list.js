@@ -2,10 +2,10 @@
 	var vueTagList = {}
 
 	vueTagList.install = function (Vue) {
-		Vue.filter('tagList', function (array, length, param) {
+		Vue.filter('tagList', function (array, length, param, icon) {
 		return array
       .map(function (val) {
-		     return '#' + (param ? val[param] : val) 
+		     return (icon || '#') + (param ? val[param] : val) 
 		  })
       .slice(0, length || array.length)
       .join(', ')
